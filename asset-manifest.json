@@ -1,9 +1,9 @@
 {
   "files": {
-    "main.css": "/KelvinMir/Registro-Vendas/static/css/main.0dcee094.css",
+    "main.css": "/",
     "main.js": "/KelvinMir/Registro-Vendas.git/static/js/main.e3b42b5d.js",
     "static/js/453.9217adcb.chunk.js": "/KelvinMir/Registro-Vendas.git/static/js/453.9217adcb.chunk.js",
-    "index.html": "/KelvinMir/Registro-Vendas.git/index.html",
+    "index.html": "/public/index.html",
     "main.0dcee094.css.map": "/KelvinMir/Registro-Vendas.git/static/css/main.0dcee094.css.map",
     "main.e3b42b5d.js.map": "/KelvinMir/Registro-Vendas.git/static/js/main.e3b42b5d.js.map",
     "453.9217adcb.chunk.js.map": "/KelvinMir/Registro-Vendas.git/static/js/453.9217adcb.chunk.js.map"

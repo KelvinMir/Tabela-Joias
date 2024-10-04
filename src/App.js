@@ -2,9 +2,9 @@ import React, { useState, useEffect } from 'react';
 import { collection, addDoc, updateDoc, deleteDoc, getDocs, doc } from "firebase/firestore";
 import './App.css';
 import { db } from './firebase';
-import Lixeira from './assets/lixeira.svg'     
-import ArrowCima from './assets/icons8-divisa-circulada-acima-50.png' 
-import ArrowBaixo from './assets/icons8-divisa-circulada-abaixo-50.png'    
+import Lixeira from '../src/assets/lixeira.svg'     
+import ArrowCima from '../src/assets/icons8-divisa-circulada-acima-50.png' 
+import ArrowBaixo from '../src/assets/icons8-divisa-circulada-abaixo-50.png'    
 
 function App() {
   const [sales, setSales] = useState([]);

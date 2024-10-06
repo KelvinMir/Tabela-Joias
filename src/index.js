@@ -6,9 +6,9 @@ import App from './App.js';
 
 const root = createRoot(document.getElementById('root'));
 root.render(
-  <Router>
+  <Router basename="/Registro-Vendas">
     <Routes>
-      <Route path='/' element={<App/>}/>
+      <Route path="/" element={<App />} />
     </Routes>
   </Router>
 );

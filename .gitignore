@@ -23,3 +23,5 @@ yarn-error.log*
     path = node_modules/.cache/gh-pages/https!github.com!KelvinMir!Registro-Vendas.git
     url = https://github.com/KelvinMir/Registro-Vendas.git
 
+
+.vercel

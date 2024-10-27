@@ -1,0 +1,182 @@
+.Tables {
+  display: block;
+  gap: 1.5rem;
+  width: 100%; /* Garante que o container ocupe toda a largura disponível */
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    white-space: nowrap;
+    table-layout: fixed;
+  }
+  
+  table th, table td {
+    border: 1px solid #d4af37;
+    padding: 20px;
+    text-align: center;
+    width: 20%;
+  }
+  
+  table th {
+    background-color: #d4af37;
+    color: white;
+    font-size: 18px;
+  }
+  
+  table td {
+    background-color: #f9f9f9;
+    width: 20%;
+    border-bottom: 1px solid #ddd;
+    transition: padding 0.5s ease;
+    text-align: center;
+  }
+  
+  table tr:nth-child(even) td {
+    background-color: #f2f2f2;
+    width: 20%;
+  }
+  
+  table tr:hover td {
+    background-color: #f1f1f1;
+    width: 20%;
+  }
+  h1, h2, h3 {
+    color: #d4af37;
+    margin-bottom: 10px;
+  }
+  .Tables {
+    display: block;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  .TPendentes, .TPagas {
+    overflow-x: auto;
+    width: 100%;
+  }
+  .Tables table {
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+  table thead {
+    width: 100%;
+  }
+  .Comprador {
+    width: 23%;
+  }
+  .TdDetalhar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  button {
+    padding: 6px 12px;
+    background-color: #2196F3;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    gap: 0.75rem;
+  }
+  .Tdicons {
+    margin:0;
+    padding: 15px;
+    width: 20%;
+  }
+  .Tdicons button {
+    background-color: #2196F3;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    height: 1.8rem;
+    width: 1.8rem;
+    padding: 0;
+  }
+  .BotãoExcluir {
+    background-color: #FF9800;
+  }
+  .icons {
+    padding: 0;
+    width: 1rem;
+    height: 1rem;
+  }
+  button:hover {
+    background-color: #218838;
+  }
+  
+  input[type="number"],
+  input[type="text"] {
+    padding: 8px;
+    margin: 4px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: calc(100% - 16px);
+  }
+  
+  input[type="number"]:focus,
+  input[type="text"]:focus {
+    border-color: #80bdff;
+    outline: none;
+  }
+  tr.paid {
+    background-color: #d4edda; /* Fundo verde claro */
+  }
+  
+  tr.unpaid {
+    background-color: #f8d7da; /* Fundo vermelho claro */
+  }
+  
+  .accordion-content {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 10px;
+    transition: max-height 0.3s ease;
+    overflow: hidden;
+    display: block !important;
+  }
+  .accordion-item {
+    padding: 5px 0;
+    border-bottom: 1px solid #ddd;
+  }
+  .Insert {
+    width: 10rem !important;
+  }
+  .accordion-item:last-child {
+    border-bottom: none;
+  }
+  
+  .accordion-item label {
+    font-weight: bold;
+  }
+  input[type="checkbox"] {
+    margin-left: 10px;
+  }
+  
+  @media (max-width:600px) {
+  
+    table {
+      display:block;
+      white-space: nowrap;
+      overflow-x: auto;
+    }
+    thead {
+      display: none; /* Oculta o cabeçalho */
+    }
+    th, td {
+      display: inline-block; /* Faz as células se comportarem como blocos em telas pequenas */
+    }
+    .accordion-content {
+      display: block; /* Certifique-se de que o conteúdo não está sendo alterado */
+      width: 100%; 
+    }
+    .accordion-item {
+      display: flex;
+      flex-direction: row; /* Mantém o layout das parcelas em linha, mesmo em telas pequenas */
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 0;
+    }
+  }

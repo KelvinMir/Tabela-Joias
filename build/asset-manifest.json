@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/Registro-Vendas/static/css/main.6e3ebe2e.css",
-    "main.js": "/Registro-Vendas/static/js/main.916ea5cb.js",
+    "main.css": "/Registro-Vendas/static/css/main.4bda2ebc.css",
+    "main.js": "/Registro-Vendas/static/js/main.e55acf06.js",
     "static/media/lixeira.svg": "/Registro-Vendas/static/media/lixeira.479983864f244068143729db91e335ce.svg",
     "index.html": "/Registro-Vendas/index.html",
-    "main.6e3ebe2e.css.map": "/Registro-Vendas/static/css/main.6e3ebe2e.css.map",
-    "main.916ea5cb.js.map": "/Registro-Vendas/static/js/main.916ea5cb.js.map"
+    "main.4bda2ebc.css.map": "/Registro-Vendas/static/css/main.4bda2ebc.css.map",
+    "main.e55acf06.js.map": "/Registro-Vendas/static/js/main.e55acf06.js.map"
   },
   "entrypoints": [
-    "static/css/main.6e3ebe2e.css",
-    "static/js/main.916ea5cb.js"
+    "static/css/main.4bda2ebc.css",
+    "static/js/main.e55acf06.js"
   ]
 }

@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/Tabela-Joias/static/css/main.4c013b2c.css",
-    "main.js": "/Tabela-Joias/static/js/main.a51814ad.js",
-    "static/media/lixeira.svg": "/Tabela-Joias/static/media/lixeira.299b9c0f4d3f73a56fab8a755f1f4c20.svg",
+    "main.js": "/Tabela-Joias/static/js/main.12b129b2.js",
+    "static/media/lixeira.svg": "/Tabela-Joias/static/media/lixeira.479983864f244068143729db91e335ce.svg",
     "index.html": "/Tabela-Joias/index.html",
     "main.4c013b2c.css.map": "/Tabela-Joias/static/css/main.4c013b2c.css.map",
-    "main.a51814ad.js.map": "/Tabela-Joias/static/js/main.a51814ad.js.map"
+    "main.12b129b2.js.map": "/Tabela-Joias/static/js/main.12b129b2.js.map"
   },
   "entrypoints": [
     "static/css/main.4c013b2c.css",
-    "static/js/main.a51814ad.js"
+    "static/js/main.12b129b2.js"
   ]
 }

@@ -1,11 +1,12 @@
 import React, { useEffect, useState, useCallback } from 'react';
 import { doc, updateDoc, deleteDoc } from 'firebase/firestore';
 import { db } from './firebase';
-import Lixeira from '../src/assets/lixeira.svg';
-import ArrowCima from '../src/assets/icons8-divisa-circulada-acima-50.png';
-import ArrowBaixo from '../src/assets/icons8-divisa-circulada-abaixo-50.png';
+
+import Lixeira from './assets/lixeira.svg';
+import ArrowCima from './assets/icons8-divisa-circulada-acima-50.png';
+import ArrowBaixo from './assets/icons8-divisa-circulada-abaixo-50.png';
 import './css/table.css';
-import Engrenagem from '../src/assets/icons8-engrenagem-50.png';
+import Engrenagem from './assets/icons8-engrenagem-50.png';
 
 function Table({ sales, setSales, expandedRows, toggleRow, firstPaymentMonth, currentYear,currentMonth, parsedAmountPaid, setTotalToReceiveT,totalToReceiveT}) {
     const [paidSales, setPaidSales] = useState([]);

@@ -6,7 +6,7 @@ import App from './App.js';
 
 const root = createRoot(document.getElementById('root'));
 root.render(
-  <Router basename="/Registro-Vendas">
+  <Router basename="/Tabela-Joias">
     <Routes>
       <Route path="/" element={<App />} />
     </Routes>

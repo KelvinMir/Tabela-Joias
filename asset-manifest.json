@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/Tabela-Joias/static/css/main.4c013b2c.css",
+    "main.js": "/Tabela-Joias/static/js/main.12b129b2.js",
+    "static/media/lixeira.svg": "/Tabela-Joias/static/media/lixeira.479983864f244068143729db91e335ce.svg",
+    "index.html": "/Tabela-Joias/index.html",
+    "main.4c013b2c.css.map": "/Tabela-Joias/static/css/main.4c013b2c.css.map",
+    "main.12b129b2.js.map": "/Tabela-Joias/static/js/main.12b129b2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4c013b2c.css",
+    "static/js/main.12b129b2.js"
+  ]
+}
